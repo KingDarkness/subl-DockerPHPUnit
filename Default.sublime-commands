@@ -1,0 +1,20 @@
+[
+    {
+        "caption": "Docker PHPUnit: Run all",
+        "command": "docker_php_unit"
+    },
+    {
+        "caption": "Docker PHPUnit: Run functional tests",
+        "command": "docker_php_unit",
+        "args": {
+            "type": "functional"
+        }
+    },
+    {
+        "caption": "Docker PHPUnit: Run tests in current file",
+        "command": "docker_php_unit",
+        "args": {
+            "type": "current_file"
+        }
+    }
+]
